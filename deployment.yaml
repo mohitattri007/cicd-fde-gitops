@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: ghcr.io/mohitattri007/cicd-fde-demo:d86ba795d5080c1ed5112487756d51f56b8cff41
+          image: ghcr.io/mohitattri007/cicd-fde-demo:c048748b876c6d58a88505cbc7d7971c7b8d70bf
           ports:
             - containerPort: 8000
           readinessProbe:
